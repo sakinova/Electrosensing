@@ -53,9 +53,9 @@ In Arduino IDE:
 
 Install the following libraries using **Sketch → Include Library → Manage Libraries…**
 
-NimBLE-Arduino h2zero 2.3.x
-Adafruit ADS1X15 Adafruit 2.6.0
-Adafruit BusIO Adafruit 1.17.x
+- NimBLE-Arduino h2zero 2.3.x
+- Adafruit ADS1X15 Adafruit 2.6.0
+- Adafruit BusIO Adafruit 1.17.x
 
 **Note:** Adafruit BusIO is required by the ADS1X15 library.
 
@@ -65,15 +65,15 @@ Adafruit BusIO Adafruit 1.17.x
 
 Configure the following settings in **Tools** before uploading:
 
-| Board | ESP32 Dev Module |
-| Port | `/dev/cu.usbserial-XXXX` |
-| CPU Frequency | 240MHz (WiFi/BT) |
-| Flash Frequency | 80MHz |
-| Flash Mode | QIO |
-| Flash Size | 4MB |
-| Partition Scheme | Default 4MB with SPIFFS |
-| Upload Speed | 115200 |
-| Core Debug Level | None |
+- Board | ESP32 Dev Module
+- Port | `/dev/cu.usbserial-XXXX`
+- CPU Frequency | 240MHz (WiFi/BT)
+- Flash Frequency | 80MHz
+- Flash Mode | QIO
+- Flash Size | 4MB
+- Partition Scheme | Default 4MB with SPIFFS
+- Upload Speed | 115200
+- Core Debug Level | None
 
 ---
 
